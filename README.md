@@ -1,7 +1,7 @@
-contribution-jhipster-uga/pg_dump
+contribution-jhipster-uga/docker-pg_dump
 ================
 
-Docker image with pg_dump running as a cron task. Find the image, here: https://hub.docker.com/r/annixa/docker-pg_dump/
+Docker image with pg_dump running as a cron task. Find the image, here: https://hub.docker.com/r/contributionjhipster/docker-pg_dump
 
 ## Usage
 
