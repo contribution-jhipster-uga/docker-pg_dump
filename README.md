@@ -21,7 +21,7 @@ Attach a target postgres container to this container and mount a volume to conta
 Example:
 ```
 postgres-backup:
-  image: annixa/docker-pg_dump
+  image: contributionjhipster/docker-pg_dump
   container_name: postgres-backup
   links:
     - postgres:db #Maps postgres as "db"
@@ -43,4 +43,4 @@ Run backup once without cron job, use "mybackup" as backup file prefix, shell wi
         -v /path/to/target/folder:/dump \   # where to put db dumps
         -e PREFIX=mybackup \
         --link my-postgres-container:db \   # linked container with running mongo
-        annixa/docker-pg_dump dump
+        contributionjhipster/docker-pg_dump dump
